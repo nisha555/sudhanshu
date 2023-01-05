@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HiController {
-	
+//changes is done	
 	@GetMapping(path="/hiSave")
 	public String hiSave() {
 		return "Hello World";
